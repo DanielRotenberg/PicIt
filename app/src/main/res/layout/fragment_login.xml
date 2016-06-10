@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fragment_login_mail"
+        style="@style/AccountTextsFields"
+        android:hint="@string/account_mail_hint"/>
+
+    <EditText
+        android:id="@+id/fragment_login_password"
+        style="@style/AccountTextsFields"
+        android:hint="@string/account_password_hint"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/fragment_login_button_login"
+        style="@style/AccountTextsFields.Buttons"
+        android:text="@string/login_account_login_button"/>
+
+    <Button
+        android:id="@+id/fragment_login_button_goto_create_account"
+        style="@style/AccountTextsFields.Buttons"
+        android:text="@string/account_button"/>
+</LinearLayout>
